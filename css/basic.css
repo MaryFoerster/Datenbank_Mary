@@ -1,0 +1,119 @@
+:root {
+  --primary-color: #1daae6;
+  --secundary-color: ;
+  --white: white;
+  --border: .2rem;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+body img {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+.menu {
+  background-color: rgba(255, 255, 255, 0.548);
+  display: flex;
+  width: 62rem;
+  border-radius: var(--border);
+  justify-content: space-between;
+}
+.menu_item {
+  background-color: var(--primary-color);
+  padding: .5rem;
+  margin: 1rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  border-radius: var(--border);
+}
+.menu_item:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+a {
+  color: var(--white);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:  var(--primary-color);
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.548);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: var(--border);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+h1, h2 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--primary-color);
+  padding: 1rem;
+  background-color: var(--white);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: var(--border);
+  font-size: 1.5rem;
+}
+h3 {
+  color: var(--primary-color);
+}
+
+
+  .mobil {
+    display: none;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+@media screen and (max-width: 1160px){
+  body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    display: none;
+  }
+  .mobil {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+

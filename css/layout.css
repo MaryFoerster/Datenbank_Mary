@@ -1,0 +1,195 @@
+/* index-------------------------------- */
+.container_index {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 80%;
+}
+.container_index img {
+  width: 4rem;
+  height: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.box_1_index {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+}
+.box_2_index {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.collum1 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.collum2 {
+  width: 50%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.index_btn {
+  width: 15rem;
+  padding: 1rem;
+  border: none;
+  border-radius: var(--border);
+  background-color: rgb(0, 85, 128);
+}
+.index_btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* index-------------------------------- */
+
+/* liste-------------------------------- */
+table {
+  width: 62rem;
+  height: 30rem;
+  border-radius: var(--border);
+  overflow: visible;
+  margin-bottom: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+th {
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #4bbdeb;
+  border-radius: var(--border);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--white);
+}
+td {
+  padding: 1rem;
+  font-size: .8rem;
+  border-radius: var(--border);
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+tr:nth-child(even) {
+  border-radius: var(--border);
+  background-color: rgba(0, 80, 114, 0.168)
+}
+
+
+/* liste-------------------------------- */
+
+/* +-------------------------------- */
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: .5rem;
+  display: none;
+}
+input {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border: none;
+  margin-bottom: 1.5rem;
+  border-radius: var(--border);
+  width: 12rem;
+}
+.input {
+  padding: 1rem;
+  width: 100%;
+}
+.list_box {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.form_box {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  width: 62rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subBtn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 1rem;
+  border-radius: var(--border);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.subBtn:hover {
+  background-color: rgb(1, 218, 19);
+  cursor: pointer;
+}
+/* +-------------------------------- */
+
+
+/* suche-------------------------------- */
+.example {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border-radius: var(--border);
+  width: 20rem;
+  margin-bottom: 0px;
+  background: #f1f1f1;
+}
+form.example button {
+  width: 3rem;
+  padding: 10px;
+  margin-left: 5px;
+  background: var(--primary-color);
+  color: white;
+  font-size: 17px;
+  border-radius: .3rem;
+  border: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* suche-------------------------------- */
